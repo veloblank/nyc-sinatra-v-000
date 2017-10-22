@@ -1,0 +1,8 @@
+<h1>NYC Landmarks</h1>
+
+<% @landmarks.each do |landmark| %>
+  <ul><strong><%= landmark.name %></strong>
+    <li>completed in <%=landmark.year_completed%><br></li>
+  </ul>
+<%end%>
+<br>
